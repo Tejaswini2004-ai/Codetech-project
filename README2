@@ -1,0 +1,27 @@
+Project Title: Weather Forecast using Java and REST API
+Objective:
+To create a Java application that fetches and displays real-time weather information for any city using a REST API.
+Description:
+This project uses Java to connect to an online weather API. When the user enters a city name, the program sends a request to the API, gets the weather data in JSON format, and displays temperature, wind speed, weather condition, and time. JSON data is parsed using the `org.json` library.
+
+How it works:
+1. User inputs a city name.
+2. API URL is created and a request is sent.
+3. JSON response is received and parsed.
+4. Weather details are shown in the console.
+5. User is asked if they want to check another city.
+
+Technologies Used:
+Java, REST API, JSON-java library (`org.json`), VS Code or any Java IDE.
+Output Example:
+Enter a city name: Hyderabad
+------ Weather Data for Hyderabad ------
+Temperature: 30.0°C
+Wind Speed: 16.7 km/h
+Weather: Partly Cloudy (code 2)
+Time: 2025-07-06T10:45
+
+Conclusion:
+
+This project shows how to use Java with APIs and JSON. It is useful for learning API calls, JSON parsing, and user interaction in Java.
+Let me know if you want the same in PDF or for a presentation slide.
